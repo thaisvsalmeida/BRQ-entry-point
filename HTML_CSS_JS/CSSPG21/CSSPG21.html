@@ -1,0 +1,65 @@
+<!-- BTQ Entry Point - Grande Porte
+    Exercicio CSSPG21
+    Grupo 6: Iorran Gabriele, Marisete Luckner, Paula Buscácio, Richard Benicio Militão, Thaís Almeida-->
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Vagas</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <div class="titulo"><p>Vaga - Desenvolverdor Júnior</p></div><br><br>
+
+        <form method="POST">
+            <div class="tabela">
+                <table border="0" cellpadding="10" cellspacing="5">
+                    <tr>
+                        <td rowspan="7"><img src="./img/desenvolvedor.jpg" id="img"></td>
+                        <td><p>Nome Completo</p></td>
+                        <td><input name="campoNome" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><p>Crie uma senha</p></td> 
+                        <td><input name="campoSenha" type="password"></td> 
+                    </tr>
+                    <tr>
+                        <td><p>Resumo Profissional</p></td>
+                        <td><textarea name="campoResumo" maxlength="400"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><p>Escolaridade</p></td> 
+                        <td><select name="campoEscolaridade">
+                            <option>Ensino Fundamental</option>
+                            <option>Ensino Médio</option>
+                            <option>Ensino Superior</option>
+                            <option>Pós-Graduação</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Linguagem de Interesse</p></td> 
+                        <td><input name="campoLinguagem" type="radio" value="Java"> Java
+                            <input name="campoLinguagem" type="radio" value="PHP"> PHP
+                            <input name="campoLinguagem" type="radio" value="C#"> C#
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Idiomas</p></td>
+                        <td><input name="campoIdioma" type="checkbox" value="Inglês">Inglês
+                            <input name="campoIdioma" type="checkbox" value="Espanhol"> Espanhol
+                            <input name="campoIdioma" type="checkbox" value="Francês"> Francês
+                            <input name="campoIdioma" type="checkbox" value="Alemão"> Alemão
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="submit">
+                                                        <input type="reset">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+
+    </body>
+</html>

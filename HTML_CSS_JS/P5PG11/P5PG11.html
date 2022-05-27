@@ -1,0 +1,44 @@
+<!-- BTQ Entry Point - Grande Porte
+    Exercicio P5PG11   
+    Grupo 6: Iorran Gabriele, Marisete Luckner, Paula Buscácio, Richard Benicio Militão, Thaís Almeida-->
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Get e Post</title>
+    </head>
+    <body>
+        <h2>Estudo GET e POST</h2>
+        <!--Get é usado como Default. Nunca se deve usar para dados sensíveis-->
+        <form method="GET">
+            <h3>Método GET</h3>
+            <table>
+                <tr>
+                    <td>Comentário</td>
+                    <td><textarea name="campoComentario"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                </tr>
+            </table>
+            <br>
+        </form>
+
+        <!--Post envia os dados do formulário como uma transação HTTP-->
+        <form method="POST">
+            <h3>Método POST</h3>
+            <table>
+                <tr>
+                    <td>Nome de Usário</td>
+                    <td><input type="text" name="campoNome"></td>
+                </tr>
+                <tr>
+                    <td>Senha</td>
+                    <td><input type="password" name="campoSenha"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    background-color: #eeeeee;
+}
+
+div{
+    background-color: #87a7b3;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+img{
+    width: 500px;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    font-size: 30;
+}

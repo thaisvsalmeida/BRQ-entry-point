@@ -1,0 +1,21 @@
+body{
+	background-image: url("guitar.jpeg");
+}
+div#a{
+	background-color:#D2691E;
+	position: middle;
+	top:250px;
+	left:300px
+	
+}
+p{
+	color:white;
+}
+#s1{
+	position:absolute;
+	right:100px;
+	top:250px;
+}
+h1{
+	color:white;
+}

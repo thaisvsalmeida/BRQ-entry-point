@@ -1,0 +1,93 @@
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Salário</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="P4PG138.js"></script>
+    </head>
+    <body>
+        <h2>Salário dos Funcionários</h2>
+        <h3>Insira seus dados</h3>
+        <div class="dados">
+            <form method="POST">
+                <table>
+                    <tr>
+                        <td>Número de Identificação:</td>
+                        <td><input type="text" id="campoId"></td>
+                    </tr>
+                    <tr>
+                        <td>Horas Trabalhadas:</td>
+                        <td><input type="text" id="campoHoras"></td>
+                    </tr>
+                    <tr>
+                        <td>Salário por Hora:</td>
+                        <td><input type="text" id="campoSalario"></td>
+                    </tr>
+                </table>
+                <br>
+                <input type="button" value="Calcular" onclick="calcular()">
+                <input type="reset" value="Limpar" onclick="limpar()">
+            </form>
+        </div>
+
+        <p><span id="msg"></span></p>
+
+        <div class="cedulas">
+            <table border="1" cellspacing="0" align="center" cellpadding="5">
+                <tr>
+                    <th>Notas</th>
+                    <th>Quantidade</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/moeda1.jpg">
+                    </td>
+                    <td><span id="moeda1"></span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/nota2.jpg">
+                    </td>
+                    <td><span id="nota2"></span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/nota5.jpg">
+                    </td>
+                    <td><span id="nota5"></span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/nota10.jpg">
+                    </td>
+                    <td><span id="nota10"></span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/nota20.jpg">
+                    </td>
+                    <td><span id="nota20"></span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/nota50.jpg">
+                    </td>
+                    <td><span id="nota50"></span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/nota100.jpg">
+                    </td>
+                    <td><span id="nota100"></span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/nota200.jpg">
+                    </td>
+                    <td><span id="nota200"></span></td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+</html>

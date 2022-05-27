@@ -1,0 +1,29 @@
+body {
+    background-image: url('./img/desenvolvedor1.jpg');
+}
+
+.titulo{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    background-color: #faf1e6;
+    border: 2px solid rgba(0, 0, 0, 0.596);
+    font-size: x-large;
+}
+
+#img {
+    width: 400;
+    border-radius: 10%;
+}
+
+.tabela {
+    background-color: #faf1e6;
+    border: 2px solid rgba(0, 0, 0, 0.596);
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo, p {
+    font-weight: bold;
+}

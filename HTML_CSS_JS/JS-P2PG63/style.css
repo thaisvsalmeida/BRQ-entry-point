@@ -1,0 +1,19 @@
+body{
+    background-color: #ddffbc;
+}
+
+img{
+    height: 300;
+    border-radius: 95%;
+}
+
+p{
+    font-size: 20;
+    font-weight: bold;
+    color:chocolate;
+}
+
+.bloco{
+    background-color: #91c788;
+    padding-left: 10px;
+}

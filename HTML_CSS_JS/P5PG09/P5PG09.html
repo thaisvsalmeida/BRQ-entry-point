@@ -1,0 +1,59 @@
+<!-- BTQ Entry Point - Grande Porte
+    Exercicio P5PG09 
+    Grupo 6: Iorran Gabriele, Marisete Luckner, Paula Buscácio, Richard Benicio Militão, Thaís Almeida-->
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Vagas</title>
+    </head>
+    <body>
+        <h2>Vaga para Desenvolverdor Júnior</h2>
+        <form method="POST">
+            <table border="0">
+                <tr>
+                    <td>Nome Completo</td>
+                    <td><input name="campoNome" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Crie uma senha</td> 
+                    <td><input name="campoSenha" type="password"></td> 
+                </tr>
+                <tr>
+                    <td>Resumo Profissional</td>
+                    <td><textarea name="campoResumo"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Escolaridade</td> 
+                    <td><select name="campoEscolaridade">
+                        <option>Ensino Fundamental</option>
+                        <option>Ensino Médio</option>
+                        <option>Ensino Superior</option>
+                        <option>Pós-Graduação</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Linguagem de Interesse</td> 
+                    <td><input name="campoLinguagem" type="radio" value="Java"> Java
+                        <input name="campoLinguagem" type="radio" value="PHP"> PHP
+                        <input name="campoLinguagem" type="radio" value="C#"> C#
+                    </td>
+                </tr>
+                <tr>
+                    <td>Idiomas</td>
+                    <td><input name="campoIdioma" type="checkbox" value="Inglês">Inglês
+                        <input name="campoIdioma" type="checkbox" value="Espanhol"> Espanhol
+                        <input name="campoIdioma" type="checkbox" value="Francês"> Francês
+                        <input name="campoIdioma" type="checkbox" value="Alemão"> Alemão
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dados respondidos?</td>
+                    <td><input type="submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

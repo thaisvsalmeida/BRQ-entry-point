@@ -1,0 +1,36 @@
+body {
+    background-color: #d5dbb3;
+}
+
+h2 {
+    text-align: center;
+    background-color: #bb371a;
+    padding: 40px;
+    font-size: 35px;
+    font-style: italic;
+    color: #fff8d9;
+}
+
+h3 {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+.cedulas tr {
+    text-align: center;
+    font-size: 20px;
+}
+
+.dados tr {
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
